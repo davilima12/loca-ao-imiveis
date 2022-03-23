@@ -1,0 +1,11 @@
+CREATE DATABASE locacoes;
+
+CREATE TABLE imoveis(
+id int(20) NOT NULL AUTO_INCREMENT,
+estado varchar(30),
+cidade varchar(30),
+bairro varchar(50),
+rua varchar(50),
+numero int(20),
+PRIMARY KEY (id)
+);
